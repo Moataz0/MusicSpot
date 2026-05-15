@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light theme (default) */
+  --color-background: 248 249 250;
+  --color-surface: 255 255 255;
+  --color-primary: 0 122 255;
+  --color-secondary: 0 240 255;
+  --color-text: 18 18 18;
+  --color-text-secondary: 102 102 102;
+  --color-border: 224 224 224;
+  --color-tab-bar: 255 255 255;
+}
+
+.dark {
+  /* Dark theme */
+  --color-background: 5 5 5;
+  --color-surface: 21 21 21;
+  --color-primary: 0 240 255;
+  --color-secondary: 0 128 255;
+  --color-text: 255 255 255;
+  --color-text-secondary: 142 142 147;
+  --color-border: 28 28 30;
+  --color-tab-bar: 10 10 10;
+}
